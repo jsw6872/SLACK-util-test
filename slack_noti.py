@@ -1,7 +1,7 @@
 import requests
-import inspect
+import config
 
-token = 'xoxb-3266142145475-3358685080212-mNIKtMsaXHKPBGddCpcUV23o'
+token = config.token
 channel = '#일반'
 # message = f'{inspect.getfile(inspect.currentframe())} 실행이 완료 됐습니다.'
 
