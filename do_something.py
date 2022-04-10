@@ -1,9 +1,15 @@
 import slack_noti
 import inspect
 
-def sum(a,b):
-    return a+b
+import config
+
+token = config.token
+channel = '#일반'
+
 
 if __name__ == '__main__':
-    sum(1,4)
-    slack_noti.main(f'{inspect.getfile(inspect.currentframe())} 실행이 완료 됐습니다.')
+    response = slack_noti.post_message(token,  channel,
+        f'{inspect.getfile(inspect.currentframe())} 실행이 완료 됐습니다.'
+        )
+    print(response.text)
+    print(response.status_code)
