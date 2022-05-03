@@ -14,5 +14,9 @@
 -  토큰 복사
 #### bolt 사용?
 #### ref
-[slack 메시지 알림](https://yganalyst.github.io/web/slackbot1/)
-[slack 특정 메시지 찾아서 댓글 달기](https://wooiljeong.github.io/python/slack-bot/)
+[slack 메시지 알림 slacker사용함 (이용 X)](https://yganalyst.github.io/web/slackbot1/)  
+[slack 특정 메시지 찾아서 댓글 달기](https://wooiljeong.github.io/python/slack-bot/)  
+[slack_sdk](https://sooftware.io/slack_bot/)  
+[slack_sdk2](https://cosmosproject.tistory.com/393)  
+[chat.postMessage](https://13akstjq.github.io/api/2019/09/07/Slack-API-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0.html)
+[webhook 이용](https://ai-creator.tistory.com/298)
