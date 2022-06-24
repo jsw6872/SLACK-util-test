@@ -16,6 +16,7 @@
 -  토큰 복사
 - 해당 채널의 봇 토큰을 사용할 경우 유저멤버의 Id로 날리면 디엠이 가능, but 일일이 수집이 필요
   - conversations.members를 통해 멤버 id 접근이 가능?? -> 테스트 해볼 필요 있음(권한 설정 등)
+      - 채널 권한 설정이 필요해서 수기로 수집할 필요가 있어보임
 #### bolt 사용?
 #### ref
 [slack 메시지 알림 slacker사용함 (이용 X)](https://yganalyst.github.io/web/slackbot1/)  
