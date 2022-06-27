@@ -12,6 +12,9 @@
 - `Add an OAuth Scope`를 통해 필요한 scope 등록 ( Slack API Methods에서 여러 API 확인 가능 )
 -  `Install Workspace`
 
+### 채널에 메시지 게시
+- 토큰 복사
+- 해당 채널의 봇 토큰을 사용할 경우 게시물을 올리고 싶은 채널의 id로 접근할 경우 게시가 가능
 ### dm
 -  토큰 복사
 - 해당 채널의 봇 토큰을 사용할 경우 유저멤버의 Id로 날리면 디엠이 가능, but 일일이 수집이 필요
