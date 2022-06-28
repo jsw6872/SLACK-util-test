@@ -1,7 +1,7 @@
 import pymysql
 import pymysql.cursors
 
-import config
+from db import config
 
 DB_ADDRESS = config.DB_ADDRESS
 DB_USER = config.DB_USER

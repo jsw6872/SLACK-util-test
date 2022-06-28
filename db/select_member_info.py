@@ -1,12 +1,6 @@
 import pymysql
 import pymysql.cursors
 
-import config
-
-DB_ADDRESS = config.DB_ADDRESS
-DB_USER = config.DB_USER
-DB_PASSWORD = config.DB_PASSWORD
-
 def select_member_info(conn, date):
     with conn.cursor() as cursor:
         sql = '''
@@ -15,7 +9,7 @@ def select_member_info(conn, date):
             FROM
                 member_info
             WHERE
-                member_birth = %s
+                right(member_birth, 5) = %s
         '''
 
         cursor.execute(sql, date)
