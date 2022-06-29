@@ -9,7 +9,7 @@
 - `Bots` 클릭
 ### 앱 관련 scope(권한) 설정
 - `review scopes to add` 클릭
-- `Add an OAuth Scope`를 통해 필요한 scope 등록 ( Slack API Methods에서 여러 API 확인 가능 )
+- `Add an OAuth Scope`를 통해 필요한 scope 등록 ( Slack API Methods에서 여러 API 확인 가능 ) - bot : write 권한 필요
 -  `Install Workspace`
 
 ### 채널에 메시지 게시
