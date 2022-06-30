@@ -25,7 +25,7 @@ def main():
                 birth_member_name = birth_member_info['member_name']
                 birth_member_token = birth_member_info['member_id']
                 channel_response = slack_channel_noti.post_message(token,  channel_id, f'{birth_member_name}님의 생일입니다. 다들 축하해주세요!!')
-                # dm_response = slack_dm_noti.post_message(birth_member_token,  user_id, 'test sentence')
+                # dm_response = slack_dm_noti.post_message(token,  user_id, f'{birth_member_name}님, 생일 축하합니다!!')
 
         print(channel_response.text)
 
