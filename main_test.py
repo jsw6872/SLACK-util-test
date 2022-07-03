@@ -12,7 +12,6 @@ user_id = slack_config.user_id
 
 def main():
   # TODO:
-        # daemon으로 돌릴 시에 while문으로 조회해야하는지, 한번만 출력이 가능하도록, 같은 생일자가 있을 때 어떻게 처리할 것인지
         # crontab으로 매일 자정 한 번씩 프로그램 실행하면 될 것으로 보임
     try:
         conn = db_connector.db_connecter()
