@@ -18,9 +18,14 @@ def main():
         conn = db_connector.db_connecter()
         
         now = datetime.datetime.now()
-        birth_date = f"{now.strftime('%m')}-{now.day}"
-        birth_member_list = select_member_info.select_member_info(conn, birth_date)
+
+        if now.day < 10:
+          birth_date = f"{now.strftime('%m')}-0{now.day}"
+        else:
+          birth_date = f"{now.strftime('%m')}-{now.day}"
         
+        birth_member_list = select_member_info.select_member_info(conn, birth_date)
+        print(birth_member_list)
         if len(birth_member_list) != 0:
             for birth_member_info in birth_member_list:
                 birth_member_name = birth_member_info['member_name']
@@ -28,7 +33,7 @@ def main():
                 channel_response = slack_channel_noti.post_message(token,  channel_id, f'{birth_member_name}님의 생일입니다. 다들 축하해주세요!!')
                 # dm_response = slack_dm_noti.post_message(token,  user_id, f'{birth_member_name}님, 생일 축하합니다!!')
 
-        print(channel_response.text)
+                print(channel_response.text)
 
     except Exception as e:
         print(e)
