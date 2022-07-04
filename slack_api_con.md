@@ -22,6 +22,8 @@
       - 채널 권한 설정이 필요해서 수기로 수집할 필요가 있어보임
 
 ### corntab을 통해 매일 실행
+- 가상환경에서 실행시 가상환경 경로 설정 필요
+`* * * * * /usr/local/Caskroom/miniconda/base/envs/da/bin/python /Users/joseong-u/workspace/SLACK-util-test/__main__.py >> ~/workspace/SLACK-util-test/test_log.sh.log 2>&1`
 #### bolt 사용?
 #### ref
 [slack 메시지 알림 slacker사용함 (이용 X)](https://yganalyst.github.io/web/slackbot1/)  
