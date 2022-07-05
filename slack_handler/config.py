@@ -1,3 +1,0 @@
-token = 'xoxb-3266142145475-3363141444358-ANLk0UzOtAQEhFVlnaOqxtyE'
-user_id = 'U037DG83H1V'
-channel_id = 'C038HSUNPBJ'
