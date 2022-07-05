@@ -1,0 +1,41 @@
+Traceback (most recent call last):
+  File "/Users/joseong-u/workspace/SLACK-util-test/main_test.py", line 1, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/__init__.py", line 2, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/insert_member_info.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/Users/joseong-u/workspace/SLACK-util-test/main_test.py", line 1, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/__init__.py", line 2, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/insert_member_info.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/Users/joseong-u/workspace/SLACK-util-test/__main__.py", line 1, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/__init__.py", line 2, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/insert_member_info.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/Users/joseong-u/workspace/SLACK-util-test/__main__.py", line 1, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/__init__.py", line 2, in <module>
+    from db import insert_member_info, select_member_info, db_connector
+  File "/Users/joseong-u/workspace/SLACK-util-test/db/insert_member_info.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+/bin/sh: /usr/local/Caskroom/miniconda/base/envs/da/lib/python3.8: is a directory
+/bin/sh: /usr/local/Caskroom/miniconda/base/envs/da/lib/python3.8: is a directory
+/bin/sh: /usr/local/Caskroom/miniconda/base/envs/da/lib/python3: No such file or directory
+[{'id': 6, 'member_id': 'test4', 'member_name': '뭘봐', 'member_birth': datetime.date(2000, 7, 4)}]
+{"ok":true,"channel":"C038HSUNPBJ","ts":"1656937742.311979","message":{"bot_id":"B03AF5Q6Q79","type":"message","text":"\ubb58\ubd10\ub2d8\uc758 \uc0dd\uc77c\uc785\ub2c8\ub2e4. \ub2e4\ub4e4 \ucd95\ud558\ud574\uc8fc\uc138\uc694!!","user":"U03AP45D2AJ","ts":"1656937742.311979","app_id":"A03AVP99F26","team":"T037U4649DZ","bot_profile":{"id":"B03AF5Q6Q79","app_id":"A03AVP99F26","name":"test2_bot","icons":{"image_36":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png","image_48":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png","image_72":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"},"deleted":false,"updated":1649564759,"team_id":"T037U4649DZ"},"blocks":[{"type":"rich_text","block_id":"MXmkD","elements":[{"type":"rich_text_section","elements":[{"type":"text","text":"\ubb58\ubd10\ub2d8\uc758 \uc0dd\uc77c\uc785\ub2c8\ub2e4. \ub2e4\ub4e4 \ucd95\ud558\ud574\uc8fc\uc138\uc694!!"}]}]}]}}
+[{'id': 6, 'member_id': 'test4', 'member_name': '뭘봐', 'member_birth': datetime.date(2000, 7, 4)}]
+{"ok":true,"channel":"C038HSUNPBJ","ts":"1656937801.309929","message":{"bot_id":"B03AF5Q6Q79","type":"message","text":"\ubb58\ubd10\ub2d8\uc758 \uc0dd\uc77c\uc785\ub2c8\ub2e4. \ub2e4\ub4e4 \ucd95\ud558\ud574\uc8fc\uc138\uc694!!","user":"U03AP45D2AJ","ts":"1656937801.309929","app_id":"A03AVP99F26","team":"T037U4649DZ","bot_profile":{"id":"B03AF5Q6Q79","app_id":"A03AVP99F26","name":"test2_bot","icons":{"image_36":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png","image_48":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png","image_72":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"},"deleted":false,"updated":1649564759,"team_id":"T037U4649DZ"},"blocks":[{"type":"rich_text","block_id":"N\/P","elements":[{"type":"rich_text_section","elements":[{"type":"text","text":"\ubb58\ubd10\ub2d8\uc758 \uc0dd\uc77c\uc785\ub2c8\ub2e4. \ub2e4\ub4e4 \ucd95\ud558\ud574\uc8fc\uc138\uc694!!"}]}]}]}}
+[{'id': 6, 'member_id': 'test4', 'member_name': '뭘봐', 'member_birth': datetime.date(2000, 7, 4)}]
+{"ok":true,"channel":"C038HSUNPBJ","ts":"1656937861.215499","message":{"bot_id":"B03AF5Q6Q79","type":"message","text":"\ubb58\ubd10\ub2d8\uc758 \uc0dd\uc77c\uc785\ub2c8\ub2e4. \ub2e4\ub4e4 \ucd95\ud558\ud574\uc8fc\uc138\uc694!!","user":"U03AP45D2AJ","ts":"1656937861.215499","app_id":"A03AVP99F26","team":"T037U4649DZ","bot_profile":{"id":"B03AF5Q6Q79","app_id":"A03AVP99F26","name":"test2_bot","icons":{"image_36":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png","image_48":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png","image_72":"https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"},"deleted":false,"updated":1649564759,"team_id":"T037U4649DZ"},"blocks":[{"type":"rich_text","block_id":"dge","elements":[{"type":"rich_text_section","elements":[{"type":"text","text":"\ubb58\ubd10\ub2d8\uc758 \uc0dd\uc77c\uc785\ub2c8\ub2e4. \ub2e4\ub4e4 \ucd95\ud558\ud574\uc8fc\uc138\uc694!!"}]}]}]}}
